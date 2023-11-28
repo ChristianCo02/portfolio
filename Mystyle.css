@@ -1,0 +1,211 @@
+.top .p1{
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: -5px;
+   
+}
+
+.top{
+background-color: rgba(242,237,233,255);
+padding-top: 15px;
+padding-bottom: 6px;
+
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.top .p2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+
+    margin-top: -20px;
+    margin-left: 78px;
+   
+    
+}
+body {
+    background-image: linear-gradient(to left, rgb(192,166,143,255) 50%, transparent 50%);
+}
+
+
+.container {
+    text-align: right; 
+}
+
+.container a:hover {
+    background-color: rgb(192, 166, 143); 
+    color: black; 
+}
+.Link1 {
+    position: absolute;
+    top: 10px;
+    right: 230px;
+    text-decoration: none;
+    color: rgb(192, 166, 143);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    display: inline-block;
+    border-top: 3px solid rgb(192, 166, 143);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    margin-right: 25px; 
+    width: auto; 
+    text-align: center; 
+    vertical-align: top; 
+
+}
+.Link2 {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    text-decoration: none;
+    color: rgb(192, 166, 143);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    display: inline-block;
+    border-top: 3px solid rgb(192, 166, 143);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    margin-right: 25px; 
+    width: auto; 
+    text-align: center; 
+    vertical-align: top; 
+
+}
+.left {
+    display: flex;
+    align-items: center; 
+   
+  }
+
+.left img{
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+   align-content: center;
+   padding: 39px;
+   
+}
+.left p{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 150px;
+    color: rgb(192, 166, 143);
+  
+    
+}
+
+.pDesc p{
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    position: absolute;
+    left: 208px;
+    top: 120px;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+  }
+  footer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .ImgScr {
+    text-align: center;
+  }
+  .ImgScr{
+    display: block; 
+  margin: 0 auto
+  }
+  footer img {
+    width: 35px;
+    height: auto;
+    margin-right: 15px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  .Skill{
+    margin-left: 725px;
+  }
+  .Skill img {
+    width:100px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: -25px;
+    display: inline-block;
+
+ 
+  }
+  .WriteSkills p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(242,237,233,255) 50%, white 50%);
+    margin-top: -150px;
+    border: 2px solid rgb(192, 166, 143);
+  }
+
+  .right p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(242,237,233,255) 50%, white 50%);
+    border: 2px solid rgb(192, 166, 143);
+  }
+  .rightP p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 970px;
+  }
+  footer button{
+    margin-left: 660px;
+    text-align: center;
+    border: 2px solid rgb(192,166,143,255);
+  
+  }
+  footer button:hover {
+    background-color: rgb(192, 166, 143); 
+    color: black; 
+}
+.Tab{
+  
+  background-color: rgba(242,237,233,255);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 20px;
+}
+.Tab p{
+  font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif ;
+font-size: 25px;
+
+}
+.Tab{
+  border: 2px solid rgb(192, 166, 143);
+}
+.Text p{
+  font-size: 18px;
+  padding: 15px;
+}
+.Img1 img{
+  width: 520px;
+  height: auto;
+  margin-top: 35px;
+  margin-left: 200px;
+}
+.Tab3{
+  margin-left: 350px;
+  margin-right: 350px;
+}

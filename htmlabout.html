@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" type="text/css" href="Mystyle.css">
+</head>
+<body>
+    <div class="top">
+        <p class="p1">CHRISTIAN COZZOLINO</p>
+      
+        <p class="p2">Developer</p>
+        <div class="container">
+            <a href="http://127.0.0.1:5500/SitoPortfolio/index.html" class="Link1">HOME</a>
+            <a href="http://127.0.0.1:5500/SitoPortfolio/htmlabout.html" class="Link2">ABOUT ME</a>
+        </div>
+        </div>
+        <div class="Tab">
+            <p>ABOUT ME</p>
+            <div class="Text">
+            <p>Sono un appassionato sviluppatore con una solida base di conoscenza
+                in Java, CSS, HTML acquisita durante il mio percorso scolastico. Inoltre
+                ho avuto l'esperienza di eseguire un corso di Java e Test Automation
+                ha notevolmente arricchito le mie competenze. Ho approfondito la mia
+                conoscenza di Java, imparando a scrivere codice efficiente e ad
+                applicare concetti avanzati nella gestione di oggetti e classi. Inoltre nel
+                corso abbiamo gestito e utilizzato Database con SQL mi ha fornito una
+                solida comprensione della gestione dei database, grazie a molte
+                esercitazioni. Inoltre, ho acquisito competenze chiave nell'automazione
+                dei test, imparando le migliori pratiche e metodologie per progettare e
+                implementare test automatizzati.</p>
+            </div>
+        </div>
+        
+        <div class="Tab">
+            <p>ESPERIENZE</p>
+            <div class="Text">
+            <p>CORSO JAVA E TEST AUTOMATION
+                IT CONSULTING – NAPOLI 09/2023- 10-2023<br>
+               • Approfondimento dei concetti avanzati di Java, inclusa la scrittura di 
+               codice efficiente e la gestione avanzata di oggetti e classi.<br>
+               • Apprendimento dettagliato di HTML e CSS, compresa la creazione di 
+               layout e stili avanzati.<br>
+               • Conoscenza approfondita di SQL per la gestione dei database, 
+               inclusi query</p>
+            </div>
+        </div>
+        
+        <div class="Tab" style="margin-left: 800px;margin-right: 800px;margin-bottom: -275px;">
+             
+            <p>INFO</p>
+            <div class="Text">
+                <p">Nome : Christian<br>
+                    Cognome : Cozzolino<br>
+                    Data di Nascita : 02/12/2002<br>
+                Residenza : Napoli<br></p>
+              
+            </div>
+        </div>
+      
+        <div class="Img1">
+        <img src="https://www.bitmat.it/wp-content/uploads/2021/04/linguaggi-di-programmazione.jpeg">
+    </div>
+        <footer>
+            <p>Contatti</p>
+            <script>function copyToClipboard(text) {
+                const el = document.createElement('textarea');
+                el.value = text;
+                document.body.appendChild(el);
+                el.select();
+                document.execCommand('copy');
+                document.body.removeChild(el);
+                document.getElementById('message').style.display = 'block'; 
+                setTimeout(function() {
+                  document.getElementById('message').style.display = 'none'; 
+                }, 10000);
+              }</script>
+            <a href="#" onclick="copyToClipboard('+39 3516522407')"
+            ><img src="https://img.icons8.com/?size=80&id=Jneo9ShAzJw7&format=png" alt="Icon WhatsApp">
+        </a>
+        <div id="message" style="display: none;"><p>+39 3516522407</p></div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=christiancozzolinolavoro@gmail.com&su=Oggetto dell'email"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png?ga=GA1.1.1380684834.1701169988&semt=ais" alt="Icon Gmail"></a>
+            <a href="https://www.linkedin.com/in/christian-cozzolino-2142b6286"><img src="https://cdn-icons-png.flaticon.com/128/174/174857.png?ga=GA1.1.1380684834.1701169988&semt=ais" alt="Icon Linkedin"></a>
+            <script>
+                function scaricaPDF() {
+                  var link = document.createElement('a');
+                  link.href = 'https://drive.google.com/file/d/1gguy_43cwDM4Ttih_YKFvx8gAZnY83--/view?usp=drive_link';
+                  link.download = 'CV_Christian_Cozzolino';
+                  link.click();
+                }
+              </script>
+            <button onclick="scaricaPDF()">Download CV</button>
+</body>
+</html>
